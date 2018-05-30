@@ -1,0 +1,12 @@
+name;type;avatar;cout-niveau;for;agi;cha;texte;ambiance
+Roderik;personnage;roderik.png;2;3;3;3;;"« Il est mieux de se dresser et de se battre. Si tu cours, tu mourras fatigué. »"
+Truite;evenement;truite.png;;;;;"Le tour en cours est annulé. <br/>Tous les joueurs récupèrent dans leur main les cartes posées pendant ce tour.";
+Loki;monstre4;loki.png;;20;10;20;;« Toi un jour je te crâme ta famille. »
+Grande hache;equipement;grande_hache.png;1;+4;;;;
+Bous le vengeur;monstre1;bous.png;;4;3;1;;« Gniaaaah ! »
+Huginn & Muninn;monstre2;huginn_et_muninn.png;;0;10;10;;« Crôa ! Crôa ! »
+Le Kraken;monstre3;kraken.png;;(20);0;(20);;« Kiiiiiih ! »
+Marteau de forge;bonus;marteau_de_forge.png;3;;;;Doublez l'effet du prochain équipement que vous posez.;
+Grenade collante;malus;potion_abrutissante.png;1;-1;-1;-1;La cible et ses voisins perdent 1 point dans chaque stat.;
+Sköll et Hati;instant;skoll_hati.png;2;;;;Jouez un bonus et un malus depuis votre main.;
+C'est un piège !;piege;jalousie_d_odin.png;0;;;;Amiral Akbar rpz.;

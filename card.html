@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <link rel="stylesheet" type="text/css" href="unit.css">
+</head>
+
+<body>
+    <div class="card">
+        <!-- YOUR CUSTOM CODE STARTS HERE -->
+
+        <!-- <img class="avatar" src="{{avatar}}"></img> -->
+        <div class="avatar avatar-{{type}}" style="background-image:url('./img/{{avatar}}');"></div>
+        <div class="card-in card-{{type}}">
+
+            <div class="card-level-cost cost-{{type}}">{{cout-niveau}}</div>
+
+            <div class="title">
+                <span class="name">{{name}}</span>
+                <span class="type" style="background-image:url('./icons/{{type}}.png');"></span>
+            </div>
+
+            <div class="container">
+                <table class="carac{{for}}{{agi}}{{cha}}">
+                    <tr>
+                        <td class="iconcell for{{for}}">
+                            <img class="icon" src="./icons/mailed-fist.svg"> {{for}}
+                        </td>
+                        <td class="iconcell agi{{agi}}">
+                            <img class="icon" src="./icons/wingfoot.svg"> {{agi}}
+                        </td>
+                        <td class="iconcell cha{{cha}}">
+                            <img class="icon" src="./icons/jewel-crown.svg"> {{cha}}
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="texte{{for}}{{agi}}{{cha}}">{{texte}}</div>
+                <div class="ambiance">{{ambiance}}</div>
+            </div>
+        </div>
+
+        <!-- YOUR CUSTOM CODE ENDS HERE -->
+    </div>
+</body>
+
+</html>
